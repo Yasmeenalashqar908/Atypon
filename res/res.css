@@ -1,0 +1,217 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px){
+  body {
+      background-color: white;
+  }
+  label{
+    display: none;
+  }
+
+ .topnav{
+  position:absolute;
+  top : 75px;
+  right: 10px;
+
+} 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 15px;
+  align-content: center;
+  align-items: center;
+}
+
+.div_Figure{
+  overflow-y: auto;
+  max-width: 350px;
+  height: 700px;
+}
+  .btn-logo{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:100px;
+
+  }
+  hr{
+    border: 0;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #fff;
+    width: auto;
+  }
+  h1,h3,h4,div,p{
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+ 
+  .center {
+    margin: auto;
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+ 
+    .container_right_content{
+      display: none;
+    }
+    #Back{
+      display: none;
+      vertical-align: center;
+      background-color: white;
+      border: none;
+    }
+    .container_right_content{
+    padding-left: 0px;
+      overflow-y: auto;
+      max-width: 340px;
+      height: 700px;
+     margin-left: 0px;
+    margin-right: 0px;
+  
+
+    }
+}
+/* 
+  ##Device = Most of the Laptop
+
+*/
+@media screen and (min-width: 800px) {
+  body {
+      background-color: white;
+  }
+ 
+  hr{
+    border: 0;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #fff;
+  }
+  h1,h3,h4,div,p{
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  #Back{
+    display: none;
+    vertical-align: center;
+    background-color: white;
+    border: none;
+  }
+
+  .center {
+    margin: auto;
+    width: 60%;
+    margin-top: 0px;
+    }
+    .flex-container {
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: auto;
+      background-color: white;
+      -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+      -moz-column-width: 100px; /* Firefox */  
+      column-width: 100px;
+    
+    }
+    .responsive {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      align-items: center;
+  }
+
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #f1f1f1;
+      max-width: 350px;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      border-bottom: 3px solid transparent;
+    }
+    
+    .topnav a:hover {
+      border-bottom: 3px solid grey;
+    }
+    
+    
+    .container_left{
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      max-width: 850px;
+      flex-wrap: wrap;
+      height: auto;
+      margin: 0px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 20px;
+      background-color: white;
+      -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+      -moz-column-width: 100px; /* Firefox */  
+      column-width: 100px;
+      
+    }
+
+    .container_right{
+ 
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      line-height: 30px;
+      font-size: 20px;
+      height: auto;
+      max-width: 350px;
+      background-color: #E0E0E0;
+      -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+      -moz-column-width: 100px; /* Firefox */  
+      column-width: 100px;
+
+    }
+    .container_right_content{
+      flex-flow: row wrap;
+      float:left;
+      overflow-y: auto;
+      max-width: 340px;
+      height: 700px;
+     margin-left: 0px;
+    margin-right: 0px;
+  
+
+    }
+    .btn-logo{
+      background-color: black; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      font-size: 16px;
+      width:150px;
+      
+    }
+
+}
+
